@@ -101,6 +101,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# texting
+PRODUCT_PACKAGES += \
+    messaging
+
 # Audio
 PRODUCT_PACKAGES += \
     audiod \
@@ -132,14 +136,6 @@ PRODUCT_COPY_FILES += \
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
-
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
 
 # Thermal
 PRODUCT_PACKAGES += \
