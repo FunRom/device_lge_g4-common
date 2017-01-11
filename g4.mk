@@ -268,3 +268,7 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     librmnetctl \
     libxml2
+
+# Camera		
+PRODUCT_PACKAGES += \
+    Snap
